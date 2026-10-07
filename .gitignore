@@ -1,0 +1,25 @@
+# Raw data (2.3 GB, too large for git; contains user PII)
+data/*
+!data/.gitkeep
+
+# Credentials / account details
+info.txt
+profiles.yml
+.env
+*.pem
+*.p8
+
+# dbt artifacts
+target/
+dbt_packages/
+logs/
+.user.yml
+
+# Python / OS
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
