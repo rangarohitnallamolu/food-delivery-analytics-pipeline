@@ -1,5 +1,7 @@
 # Food Delivery Analytics Pipeline
 
+> 🚧 **Work in progress.** This project is under active development; models, docs, and structure may change.
+
 An end-to-end analytics pipeline for food delivery data (Zomato-style), built with **Snowflake** and **dbt**.
 Raw CSVs are staged in S3, loaded into Snowflake through a storage integration, and modeled with dbt into analytics-ready tables.
 
