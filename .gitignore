@@ -23,3 +23,6 @@ venv/
 .ipynb_checkpoints/
 .DS_Store
 Thumbs.db
+
+# Local data samples / caches
+*.parquet
